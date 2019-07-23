@@ -1,7 +1,7 @@
 ## spam_classifier_tf-idf
-### Simple SPAM Classifier using TF-IDF &amp; Logistic Regression
+# Simple SPAM Classifier using TF-IDF &amp; Logistic Regression
 
-# Data Pipeline
+### Data Pipeline
 ```
 1. Data Cleansing using `CountVectorize` with stop_word='english' to remove the stop word
 2. Data transforming using `TF-IDF`

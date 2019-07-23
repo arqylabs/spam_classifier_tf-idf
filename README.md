@@ -1,9 +1,27 @@
-# Simple SPAM Classifier using TF-IDF &amp; Logistic Regression
+## Simple SPAM Detection using TF-IDF &amp; Logistic Regression
 
-**Data Pipeline**
+### Content
+This repo contains:
+- IPython script: `spam_classifier.ipynb`.
+- List of the library need as prerequisites: `Requirements.txt`.
+- Dataset: `Comment Spam.xls`.
+
+### Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes:
+- Clone this repo.
+- Install the prerequisites.
+- Run the ipython script.
+
+### Prerequisites
+- Install python
+- Install `requirements.txt` using `pip`
 ```
-1. Data Cleansing using `CountVectorize` with stop_word='english' to remove the stop word
-2. Data transforming using `TF-IDF`
-3. Model Training using `LogisticRegression`
-4. Model Evaluation using `Cross Validation`
+pip install -r requirements.txt
 ```
+
+### Data Pipeline
+- Data Cleansing to remove special characters and transform the text to lowercase.
+- Text preprocessing and tokenization using `CountVectorize` with stop_word='english' to filtering the stopword. It builds a dictionary of features and transform texts to feature vectors.
+- Data transforming using `TF-IDF`.
+- Model Training using `LogisticRegression`.
+- Model Evaluation using `Cross Validation`.
